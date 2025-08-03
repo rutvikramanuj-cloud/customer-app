@@ -12,9 +12,9 @@ namespace ConsoleApp.Services
         /// To Get Customer Name 
         /// </summary>
         /// <returns></returns>
-        public string GetCustomerName()
+        public void GetCustomerName()
         {
-            return "Rutvik Ramanuj";
+            Console.WriteLine("Rutvik Ramanuj");
         }
     }
 }

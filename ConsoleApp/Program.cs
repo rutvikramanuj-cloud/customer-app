@@ -3,5 +3,4 @@ using ConsoleApp.Services;
 
 Console.WriteLine("Hello, World!");
 CustomerService customer = new();
-string customerName = customer.GetCustomerName();
-Console.WriteLine(customerName);
+customer.GetCustomerName(); // this line will show the customer name from the customer service
